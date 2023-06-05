@@ -1,5 +1,5 @@
 const blogController = require("express").Router()
-const verifyToken = require("../middleware/VerifyToken");
+const verifyToken = require("../middleware/verifyToken.js");
 const Blog = require("../model/Blog");
 
 
